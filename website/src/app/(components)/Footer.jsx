@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
         <div className=''>
-          Footer
+          Footer hello 1
         </div>
     </>
   )
