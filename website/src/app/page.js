@@ -9,7 +9,7 @@ import Footer from "./(components)/Footer";
 export default function Home() {
   return (
     <>
-      {/* <div className="bg-[url('https://themes.muffingroup.com/be/clothing2/wp-content/uploads/2020/07/clothing2-slider-pic1-1.jpg')] w-[100%] h-[100vh] bg-center bg-cover">
+      <div className="bg-[url('https://themes.muffingroup.com/be/clothing2/wp-content/uploads/2020/07/clothing2-slider-pic1-1.jpg')] w-[100%] h-[100vh] bg-center bg-cover">
         <div className="h-[60px] flex items-center">
           <div className="flex h-[auto] mx-[auto] w-[75%] font-light text-sm text-white tracking-wider">
             <p>Help Desk 24/7</p>
@@ -29,9 +29,11 @@ export default function Home() {
             <div className="w-[75%] flex">
               <div className="w-[20%]">
                 <div className="h-[185px]"> </div>
-                <div className="text-2xl flex-wrap">
-                  <FaArrowLeftLong className="my-4 mx-auto" />
-                  <FaArrowRightLong className="my-4 mx-auto" />
+                <div className="text-2xl flex-wrap flex h-[40px] items-center">
+                  <FaArrowLeftLong className="mx-auto cursor-pointer hover:text-3xl ease-in duration-150" />
+                </div>
+                <div className="text-2xl flex-wrap flex items-center h-[40px]">
+                  <FaArrowRightLong className="mx-auto cursor-pointer hover:text-3xl ease-in duration-150" />
                 </div>
               </div>
               <div className="w-[80%] p-3">
@@ -65,7 +67,7 @@ export default function Home() {
             </div>
           </div>  
         </div>
-      </div> */}
+      </div>
       <Footer/>
     </>
   );
